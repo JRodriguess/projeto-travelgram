@@ -1,4 +1,6 @@
 nav {
   display: flex; /*para elemento ficar um ao lado do outro*/
+}
+nav ul {
   list-style: none;
 }
