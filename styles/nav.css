@@ -1,6 +1,18 @@
 nav {
   display: flex; /*para elemento ficar um ao lado do outro*/
+  justify-content: space-between;
+  align-items: center; /*ajustar item*/
+  line-height: 0;
+  padding-block: 20px;
 }
 nav ul {
-  list-style: none;
+  list-style: none; /*tira bolinhas da lista*/
+  display: flex;
+  align-items: center;
+  gap: 20px;  /*dar espaço entre os elementos */
+  padding-block: 8px ;/*espaço entre elementos em cima e em baixo*/
+}
+nav ul li:last-child img { /*usar pseudo class pra pegar a segunda opção do li, pega o filho da pimeira opção*/
+  width: 40px; /*largura */
+  height: 40px; /*comprimento */
 }

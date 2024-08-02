@@ -23,3 +23,11 @@ body {
   color: var(--text-color-seconday);
   background-color: var(--background-color);
 }
+a{
+  text-decoration: none;
+  color: inherit; /* para herdar*/
+}
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
