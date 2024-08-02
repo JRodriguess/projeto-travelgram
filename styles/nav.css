@@ -9,7 +9,7 @@ nav ul {
   list-style: none; /*tira bolinhas da lista*/
   display: flex;
   align-items: center;
-  gap: 20px;  /*dar espaço entre os elementos */
+  gap: 24px;  /*dar espaço entre os elementos */
   padding-block: 8px ;/*espaço entre elementos em cima e em baixo*/
 }
 nav ul li:last-child img { /*usar pseudo class pra pegar a segunda opção do li, pega o filho da pimeira opção*/
